@@ -1,0 +1,55 @@
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: inherit;
+    background-color: rgb(80, 80, 80);
+    padding: 7px;
+}
+
+section .div1 {
+    background-color: rgb(255, 53, 53);
+    flex: 40%;
+    line-height: 300px;
+    text-align: center;
+    margin-right: 7px;
+}
+
+section .container1 {
+    flex: 60%;
+    text-align: center;
+}
+
+section .container1 .div2 {
+    background-color: rgb(29, 255, 86);
+    flex: 100%;
+    line-height: 130px;
+    margin-bottom: 7px;
+}
+
+section .container1 .container2 {
+    display: flex;
+    flex-direction: inherit;
+}
+
+section .container1 .container2 .div3 {
+    background-color: rgb(255, 91, 173);
+    flex: 30%;
+    line-height: 163px;
+    margin-right: 7px;
+}
+
+section .container1 .container2 .container3 {
+    flex: 30%;
+}
+
+section .container1 .container2 .container3 .div4a {
+    background-color: rgb(71, 83, 255);
+    line-height: 81px;
+    margin-bottom: 7px;
+}
+
+section .container1 .container2 .container3 .div4b {
+    background-color: rgb(71, 83, 255);
+    line-height: 81px;
+}

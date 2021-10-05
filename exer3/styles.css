@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.div {
+    background-color: rgb(70, 247, 123);
+    width: 94px;
+    height: 94px;
+    display: inline;
+    margin: 3px;
+}
+
+.bigDiv1 {
+    background-color: rgb(114, 27, 81);
+    width: 194px;
+    height: 194px;
+    margin: 3px;
+}
+
+.bigDiv2 {
+    background-color: rgb(88, 70, 247);
+    width: 194px;
+    height: 194px;
+    margin: 3px;
+}
+
+section {
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin-top: 50vh;
+    margin-bottom: -50vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.subContainer {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

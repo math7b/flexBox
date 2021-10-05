@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+section {
+    background-color: rgb(107, 107, 107);
+    padding: 7px;
+    width: 40%;
+}
+
+section .div2 {
+    background-color: rgb(80, 255, 80);
+    text-align: center;
+    line-height: 50px;
+    margin: 7px 0px;
+}
+
+section .container1 {
+    display: flex;
+    flex-direction: inherit;
+}
+
+section .container1 .div1 {
+    background-color: rgb(255, 60, 60);
+    flex: 50%;
+    text-align: center;
+    margin-right: 7px;
+    line-height: 150px;
+}
+
+section .container1 .div3 {
+    background-color: rgb(255, 83, 178);
+    flex: 50%;
+    text-align: center;
+    line-height: 150px;
+}
+section .div4a{
+    background-color: rgb(92, 80, 255);
+    text-align: center;
+    line-height: 50px;
+    margin: 7px 0px;
+}
+section .div4b{
+    background-color: rgb(92, 80, 255);
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 7px;
+}
